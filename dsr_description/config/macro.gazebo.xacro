@@ -75,6 +75,51 @@
 			<maxVel>1.0</maxVel>
 			<minDepth>0.001</minDepth>
 		</gazebo>
+		
+		<!-- Joint-specific Gazebo dynamics -->
+		<gazebo reference="joint1">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>10.0</damping>
+			<friction>1.0</friction>
+		</gazebo>
+		<gazebo reference="joint2">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>10.0</damping>
+			<friction>1.0</friction>
+		</gazebo>
+		<gazebo reference="joint3">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>5.0</damping>
+			<friction>0.8</friction>
+		</gazebo>
+		<gazebo reference="joint4">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>3.0</damping>
+			<friction>0.5</friction>
+		</gazebo>
+		<gazebo reference="joint5">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>3.0</damping>
+			<friction>0.5</friction>
+		</gazebo>
+		<gazebo reference="joint6">
+			<implicitSpringDamper>true</implicitSpringDamper>
+			<springStiffness>0</springStiffness>
+			<springReference>0</springReference>
+			<damping>2.0</damping>
+			<friction>0.3</friction>
+		</gazebo>
+		
 		<!-- ros_control plugin -->
 		<gazebo>
             <selfCollide>true</selfCollide>

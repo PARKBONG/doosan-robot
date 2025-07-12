@@ -3,9 +3,9 @@
 <launch>
 
   <arg name="ns" default="dsr01"/>
-	<arg name="host" default="127.0.0.1"/>
+	<arg name="host" default="192.168.137.100"/>
 	<arg name="port" default="12345"/>
-  <arg name="model" default="m1013"/>
+  <arg name="model" default="m1509"/>
 	<arg name="mode" default="virtual"/>
   <arg name="color" default="white"/>
 	<arg name="rviz" default="True" />
